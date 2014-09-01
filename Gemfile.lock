@@ -17,11 +17,13 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
+    hashie (3.3.1)
     i18n (0.6.11)
     json (1.8.1)
     mem (0.1.5)
     method_source (0.8.2)
     minitest (5.4.1)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -61,9 +63,19 @@ GEM
       ruboty
       xrc (>= 0.0.6)
     ruboty-sushiyuki (0.0.2)
+    ruboty-syoboi_calendar (0.0.5)
+      activesupport
+      ruboty
+      syoboi_calendar (= 0.3.1)
     ruboty-zoi (1.1.0)
       ruboty
     slop (3.6.0)
+    syoboi_calendar (0.3.1)
+      activesupport
+      faraday
+      faraday_middleware
+      hashie
+      multi_xml
     thread_safe (0.3.4)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -84,4 +96,5 @@ DEPENDENCIES
   ruboty-scorekeeper
   ruboty-slack
   ruboty-sushiyuki
+  ruboty-syoboi_calendar
   ruboty-zoi
