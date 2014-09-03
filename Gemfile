@@ -19,4 +19,4 @@ gem "ruboty-delay"
 gem "ruboty-echo"
 gem "ruboty-nullpo", git: "https://github.com/mallowlabs/ruboty-nullpo.git"
 gem "ruboty-rss"
-
+gem "ruboty-aa", git: "https://github.com/hotchpotch/ruboty-aa.git"
