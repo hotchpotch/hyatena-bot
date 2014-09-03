@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/hotchpotch/ruboty-aa.git
-  revision: add0b2233d36e7a59df8d6dd1ee06d7ef25a4911
-  specs:
-    ruboty-aa (0.0.1)
-      artii (>= 2.0)
-      ruboty
-
-GIT
   remote: https://github.com/mallowlabs/ruboty-nullpo.git
   revision: 717e09dba8a2f421e07ee7b489233381fb9cb189
   specs:
@@ -62,6 +54,9 @@ GEM
       dotenv
       mem
       slop
+    ruboty-aa (0.0.1)
+      artii (>= 2.0)
+      ruboty
     ruboty-alias (0.0.3)
       ruboty
     ruboty-cron (0.0.9)
@@ -124,7 +119,7 @@ PLATFORMS
 DEPENDENCIES
   pry
   rake
-  ruboty-aa!
+  ruboty-aa
   ruboty-alias
   ruboty-cron
   ruboty-delay
